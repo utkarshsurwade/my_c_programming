@@ -2,17 +2,18 @@
 #include<stdio.h>
 int main ()
 {
-int i,p=0,c=1,n;
+int p=0,c=1,sum,n;
 printf("enter number:");
 scanf("%d",&n);
+
 printf("%d %d",p,c);
-i=p+c;
-while(i<=n)
+sum=p+c;
+while(sum<=n)
 {
-printf("%d ",i);
+printf("%d ",sum);
 p=c;
-c=i;
-i=p+c;
+c=sum;
+sum=p+c;
 }
 printf("\n");
 
