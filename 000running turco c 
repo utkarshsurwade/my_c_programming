@@ -1,0 +1,7 @@
+MOUNT c ~/
+
+c:
+
+cd TC\bin
+
+tc.exe 

@@ -1,0 +1,3 @@
+gcc bla.c
+./a.out
+
